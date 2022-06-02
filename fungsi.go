@@ -1,5 +1,5 @@
 package module2
 
-func Test() string {
-	return "test"
+func Test(name string) string {
+	return "test" + name
 }
